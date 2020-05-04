@@ -1,0 +1,6 @@
+fire==0.3.1
+future-fstrings==1.2.0
+pycryptodome==3.9.7
+PyYAML==5.3.1
+six==1.14.0
+termcolor==1.1.0
