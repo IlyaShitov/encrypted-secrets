@@ -1,9 +1,9 @@
 import os
 import tempfile
 import subprocess
-from . import conf as secrets_conf
-from . import secrets
-from .aes import AESCipher
+import encrypted_secrets.conf as secrets_conf
+import encrypted_secrets.secrets as secrets
+from encrypted_secrets.aes import AESCipher
 
 
 def detect_mode(**kwargs):

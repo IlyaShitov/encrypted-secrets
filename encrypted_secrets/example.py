@@ -1,4 +1,4 @@
-from . import get_secret, load_secrets
+from encrypted_secrets import get_secret, load_secrets
 
 if __name__ == '__main__':
     load_secrets()

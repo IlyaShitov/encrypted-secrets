@@ -1,8 +1,8 @@
-from .util import read_secrets
+from encrypted_secrets.util import read_secrets
 import os
 import yaml
 from yaml import load, FullLoader
-from . import conf as secrets_conf
+import encrypted_secrets.conf as secrets_conf
 
 
 class YAMLFormatException(Exception):
