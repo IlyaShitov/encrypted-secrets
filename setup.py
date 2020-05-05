@@ -30,4 +30,10 @@ setuptools.setup(
     url="https://new-gitlab.oits.su/its-dev/encrypted_secrets",
     packages=setuptools.find_packages(),
     python_requires='>=2.7',
+    entry_points = {
+        'console_scripts': [
+            'init_secrets=encrypted_secrets.secrets_manage:init_secrets',
+            'edit_secrets=encrypted_secrets.secrets_manage:edit_secrets'
+        ],
+    }
 )
