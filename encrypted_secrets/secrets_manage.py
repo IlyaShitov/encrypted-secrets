@@ -1,5 +1,5 @@
-from src.util import init_secrets as init_secrets_handle
-from src.util import edit_secrets as edit_secrets_handle
+from .util import init_secrets as init_secrets_handle
+from .util import edit_secrets as edit_secrets_handle
 import fire
 
 

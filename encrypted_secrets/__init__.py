@@ -2,7 +2,7 @@ from .util import read_secrets
 import os
 import yaml
 from yaml import load, FullLoader
-import src.conf as secrets_conf
+from . import conf as secrets_conf
 
 
 class YAMLFormatException(Exception):

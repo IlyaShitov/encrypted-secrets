@@ -1,4 +1,4 @@
-from src import get_secret, load_secrets
+from . import get_secret, load_secrets
 
 if __name__ == '__main__':
     load_secrets()
